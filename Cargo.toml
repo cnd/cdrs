@@ -21,15 +21,15 @@ v4 = []
 appveyor = []
 
 [dependencies]
-byteorder = "=1.2.7"
-log = "0.4.1"
+byteorder = "*"
+log = "*"
 lz4-compress = "=0.1.0"
 openssl = { version = "0.9.23", optional = true }
-r2d2 = "0.8.2"
-rand = "0.4.1"
-snap = "0.2.3"
-time = "0.1.38"
-uuid = "0.7"
+r2d2 = "*"
+rand = "*"
+snap = "*"
+time = "*"
+uuid = "*"
 
 [dev-dependencies]
 env_logger = "0.4.3"
